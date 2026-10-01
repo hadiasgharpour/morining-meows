@@ -1,5 +1,48 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+
+:root{
+	--dark: #02111b;
+	--gray: #3f4045;
+	--plum: #30292f;
+	--blue: #5d737e;
+	--light: #fcfcfc;
+
+}
+
+body {
+	font-family: "Tinos", serif;
+	font-size: 1.2em;
+	background-color: var(--light);
+	color: var(--dark);
+}
+
+h1 {
+	font-family: "Manufacturing Consent", system-ui;
+	color: var(--dark);
+	border-top: 2px solid var(--blue);
+	border-bottom: 2px solid var(--blue);
+}
+
+.dateline {
+	font-size: 1.2em;
+	color: var(--gray);
+	margin-bottom: 30px;
+}
+
+.article {
+	padding: 10px;
+	border-bottom: 2px double var(--gray);
+}
+
+p a {
+	color: var(--blue);
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 2px solid var(--blue);
+}
+
+p a:hover {
+	color: var(--plum);
+	border-bottom-color: var(--plum);
 }
